@@ -134,7 +134,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: ar(--tertiaryColor);
+    color: var(--tertiaryColor);
     font-size: 23px;
     cursor: pointer;
     display: none;
