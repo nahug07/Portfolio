@@ -440,6 +440,7 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -451,6 +452,12 @@ section .title::after{
 .contact .contact-content .row i{
     font-size: 25px;
     color: var(--secondaryColor);
+    transition: color .5s 
+    
+}
+.contact .contact-content .row i:hover{
+    color: var(--tertiaryColor);
+    transform: scale(1.3);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
